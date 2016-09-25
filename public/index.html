@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="index">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body ng-controller="main">
+	<div class="row">
+		<!--page init-->
+	   	<div class="container"><div class="col-xs-12">
+			<division-title name="rootcode10"></division-title>
+			<div ng-include src="'views/layout-init.html'"></div>
+		</div></div>
+	</div>
+	<script src="js/angular.min.js"></script>
+	<script src="js/app/index.js"></script>
+	<script src="js/main/directive/MainDirective.js"></script>
+	<script src="js/main/service/MainService.js"></script>
+	<script src="js/main/factory/MainFactory.js"></script>
+	<script src="js/main/controller/MainController.js"></script>
+</body>
+</html>
